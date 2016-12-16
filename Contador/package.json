@@ -1,0 +1,18 @@
+{
+  "name": "contador-conexiones",
+  "version": "1.0.0",
+  "description": "Contador de conexiones activas con Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+  "author": "Hans Felipe",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
